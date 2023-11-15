@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #544d57;
+}
+
+header {
+    background-color: #b52a5d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+            background-color: #b52a5d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #b8af09;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+/* Add equal spacing between table columns */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add equal spacing for the Author column */
+th:nth-child(2),
+td:nth-child(2) {
+    width: 20%; /* Adjust the width as needed */
+}

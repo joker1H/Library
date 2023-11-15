@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-image: url('img/4.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <header>
+        <h1>Add Book</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Logout</a>
+	    <a href="books.php">View Added books</a>
+	    <a href="contact.html">Contact US</a>
+        </nav>
+    </header>
+    <section class="content">
+        <form method="post" action="add_book.php">
+    <label for="title">Title:</label>
+    <input type="text" name="title" id="title" required><br>
+
+    <label for="author">Author:</label>
+    <input type="text" name="author" id="author"><br>
+
+    <label for="description">Description:</label>
+    <textarea name="description" id="description"></textarea><br>
+
+    <label for="availability">Availability:</label>
+    <select name="availability" id="availability">
+        <option value="available">Available</option>
+        <option value="unavailable">Unavailable</option>
+    </select><br>
+
+    <input type="submit" name="add_book" value="Add Book">
+</form>
+
+    </section>
+<footer>
+        &copy; 2023 Library. All rights reserved.
+    </footer>
+</body>
+</html>
